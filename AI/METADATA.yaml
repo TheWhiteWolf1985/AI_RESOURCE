@@ -1,0 +1,10 @@
+﻿project_name: "<<REQUIRED>>"
+repo: "<<REQUIRED>>"
+owner: "<<REQUIRED>>"
+ai_kit_version: "1.2.0"
+created_at: "<<REQUIRED>>"
+stack_summary:
+  - "<<REQUIRED>>"
+  - "<<OPTIONAL>>"
+  - "<<OPTIONAL>>"
+notes: "AI Kit pronto per copia diretta nella repo target."
