@@ -1,21 +1,16 @@
 ﻿# AI_INVENTORY
 
-## Cosa esiste
-- Cartella `AI/` con documentazione operativa pronta all'uso.
-- Checklist in `AI/CHECKLISTS/`.
-- Schemi in `AI/SCHEMAS/`.
-- Esempi in `AI/EXAMPLES/`.
+Perimetro compilabile a mano.
+Non inserire elenchi auto-rilevati della repository.
 
-## Cosa non esiste (non assumere)
-- Stack applicativo reale della repo target.
-- Contratti API reali e schema dati reale.
-- Comandi build/test specifici del progetto target.
+## Cosa esiste (componenti)
+- <<REQUIRED>>
 
-## Vietato assumere
-- Endpoint/moduli/tabelle non documentati.
-- Accesso a segreti reali.
-- Pipeline CI/CD non dichiarate.
+## Cosa NON assumere
+- <<REQUIRED>>
 
-## Integrazioni ammesse
-- Tooling locale gia' disponibile nella repo target.
-- Integrazioni specifiche: <<OPTIONAL>>
+## Integrazioni consentite/vietate
+- <<REQUIRED>>
+
+## Confini (in/out scope)
+- <<OPTIONAL>>

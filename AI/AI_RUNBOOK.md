@@ -1,32 +1,25 @@
 ﻿# AI_RUNBOOK
 
-Questo file descrive i comandi operativi reali del progetto target.
-In questa repository del kit va mantenuto generico.
+Runbook generico da compilare a mano nel progetto target.
+Nessun comando deve essere dedotto o inventato.
 
-## Setup / Install
-- Prerequisiti ambiente: <<REQUIRED>>
-- Comando setup locale: <<OPTIONAL>>
+## Setup/Install
+- <<REQUIRED>>
 
 ## Dev
-- Avvio locale: <<OPTIONAL>>
-- Variabili ambiente richieste: <<OPTIONAL>>
+- <<REQUIRED>>
 
 ## Build
-- Build command: <<OPTIONAL>>
-- Output atteso: <<OPTIONAL>>
+- <<REQUIRED>>
 
-## Lint / Format
-- Lint command: <<OPTIONAL>>
-- Format command: <<OPTIONAL>>
+## Lint/Format/Typecheck
+- <<OPTIONAL>>
 
-## Unit test
-- Test command: <<OPTIONAL>>
-- Coverage minima: <<OPTIONAL>>
+## Test (unit/integration/e2e)
+- <<REQUIRED>>
 
-## Integration / E2E
-- Integration command: <<OPTIONAL>>
-- E2E command: <<OPTIONAL>>
+## Migrations/DB/Docker
+- <<OPTIONAL>>
 
-## DB / Migrations (se applicabile)
-- Migration up/down: <<OPTIONAL>>
-- Seed/reset: <<OPTIONAL>>
+## Quality gates (prima dei commit)
+- <<REQUIRED>>

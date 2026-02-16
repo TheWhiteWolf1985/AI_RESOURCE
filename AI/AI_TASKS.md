@@ -1,16 +1,12 @@
 ﻿# AI_TASKS
 
-Regole:
-- Ogni step deve avere: `Status`, `Goal`, `Scope`, `Changes`, `Commands`, `Acceptance criteria`, `Commit message`.
-- `Status` ammessi: `TODO`, `DOING`, `DONE`.
-- Commit solo con verifiche verdi (se sono previsti comandi di verifica).
-- Se lo step contiene una commit message, usarla identica.
-- Aggiornare `KNOWLEDGE` e, se serve, `DECISIONS` dopo ogni step.
+Template eseguibile da compilare per il progetto target.
+Rimuovere l'esempio prima dell'uso operativo.
 
-## Step standard
+## Schema fisso step
 
-### STEP <<REQUIRED>> - <<REQUIRED>>
-- Status: TODO
+### STEP N - Titolo
+- Status: TODO/DOING/DONE
 - Goal: <<REQUIRED>>
 - Scope: <<REQUIRED>>
 - Changes:
@@ -21,27 +17,18 @@ Regole:
   - <<REQUIRED>>
 - Commit message:
   - "<<REQUIRED>>"
-- Blockers/Notes:
-  - <<OPTIONAL>>
 
-## Esecuzione corrente
+## ESEMPIO, da rimuovere
 
-### STEP 001 - Cleanup AI kit repository
-- Status: DONE
-- Goal: Rimuovere contenuti duplicati non piu' previsti e allineare la documentazione al flusso definitivo.
-- Scope: `AI/README.md`, `AI/KNOWLEDGE.yaml`, `AI/AI_TASKS.md`, `AI/AI_INVENTORY.md`, `AI/AI_RUNBOOK.md`, `AI/DECISIONS.md`, `AI/METADATA.yaml`.
+### STEP 1 - ESEMPIO
+- Status: TODO
+- Goal: Definire il perimetro iniziale.
+- Scope: File AI principali.
 - Changes:
-  - Rimossa documentazione ridondante non piu' necessaria.
-  - Pulita la struttura del kit da componenti dismessi.
-  - Aggiornato il flow in `AI/README.md` su copia diretta di `AI/`.
-  - Pulite referenze obsolete in documentazione e knowledge.
+  - Compilare i campi obbligatori.
 - Commands:
-  - `Get-ChildItem -Recurse -Force`
-  - `rg -n -i "legacy_ai_flow_markers"`
-- Acceptance criteria:
-  - Nessun riferimento residuo a elementi rimossi.
-  - README coerente con la tree reale.
-- Commit message:
-  - "chore(ai): cleanup ai folder structure"
-- Blockers/Notes:
   - <<OPTIONAL>>
+- Acceptance criteria:
+  - Tutti i campi `<<REQUIRED>>` del contesto iniziale sono compilati.
+- Commit message:
+  - "chore(ai): initialize context"
